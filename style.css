@@ -1,0 +1,83 @@
+body {
+  background-color: #ececec;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left:50px
+}
+.nav {
+  position:static ;
+  display: flex;
+  height: 62px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  font-family: 'Nunito';
+  font-size: 16px;
+  font-weight: 600;
+  gap: 5%;
+  padding: 0 0 20px;
+}
+.nav a{
+  position: static;
+  cursor:pointer;
+}
+.nav a:hover{
+  border-bottom:3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #6dd6ff, #0066ff);
+}
+.ayirici{
+  width: 100%;
+  background-color: #23a1f0a8;
+  height: 2px;
+  position: absolute;
+  top:70px;
+}
+.container{
+  background-color: inherit;
+  width: 100%;
+  height: 1000px;
+}
+.firsttext{
+  background-color: inherit;
+  width: 100%;
+  height: 600px;
+}
+.baslik{
+  display: grid;
+  grid-template-columns: 5%;
+  grid-template-rows: 300px;
+}
+.baslik h1{
+  text-transform:capitalize;
+  grid-column: 2 / 100;
+  color:#1c9ae9;
+  font-family:'Nunito';
+  font-weight: 900;
+  font-size: 5rem;
+}
+.baslik h1 p{
+  margin-bottom:0px;
+  margin-block-start: 13px;
+}
+.icerik{
+  display: grid;
+  grid-column: 2 / 100;
+  grid-row: 2;
+}
+.icerik p{
+  color:#66b8df;
+  font-family:'Nunito';
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.icerik-resim{
+  display: grid;
+  grid-column: 100/100;
+  grid-row: 1;
+}
